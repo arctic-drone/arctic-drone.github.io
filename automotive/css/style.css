@@ -232,10 +232,6 @@ h1 span {
 .copy a {
     text-decoration: none;
     color: #c62314;
-    transition: color .3s linear;
-}
-.copy a:hover {
-    color: #a2190c;
 }
 .footer_logo {
     font-size: 60px;
