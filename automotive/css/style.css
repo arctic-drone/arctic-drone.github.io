@@ -1,0 +1,240 @@
+@font-face {
+    font-family: QuiteChocolatey;
+    src: url(../fonts/QuiteChocolatey.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: PTSerif;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(../fonts/couture-bld.otf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_image {
+    background-image: url(../img/background.png);
+    height: 688px;
+}
+.container {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+.logo {
+    font-family: "QuiteChocolatey";
+    font-size: 60px;
+    color: #ffffff;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    margin-left: 3px;
+}
+nav li:nth-child(1) {
+    margin-left: 0;
+}
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 16px;
+    transition: .3s;
+}
+nav li a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.header__title {
+    max-width: 460px;
+    margin: 135px 0 0 20px;
+}
+h1 {
+    font-size: 82px;
+    font-family: "Montserrat";
+    color: #130e27;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+h1 span {
+    color: #fff;
+}
+.header__title p {
+    font-size: 18px;
+    font-family: "PTSerif";
+    color: #ffffff;
+    line-height: 28px;
+    font-weight: normal;
+}
+.services_title {
+    font-size: 50px;
+    font-family: "Couture";
+    color: #130e27;
+    font-weight: bold;
+    margin: 45px 0 100px 17px;    
+}
+.services_title span {
+    color: #c62314;
+}
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 70px;
+}
+.services_item {
+    text-align: center;
+    max-width: 175px;
+}
+.services_text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: #161616;
+}
+.blue_line {
+    background-color: #130e27;
+}
+.blue_line__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.blue_line_text {
+    font-size: 19px;
+    font-family: "PTSerif";
+    color: #ffffff;
+    max-width: 625px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.story {
+    width: 270px;
+    height: 65px;
+    background-color: #c62314;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pricing {
+    background-color: #efefef;
+    padding-bottom: 65px;
+}
+.pricing__inner {
+    text-align: center;
+    padding: 60px 0;
+}
+.pricing__inner p {
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: #130e27;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pricing_item {
+    background-color: #fff;
+    padding: 36px 60px 10px 60px;
+    border-radius: 4px;
+}
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.pricing_title {
+    font-size: 22px;
+    font-family: "PTSerif";
+    color: #161616;
+}
+.pricing_price {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: #c62314;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+.pricing_item ul {
+    padding-bottom: 40px;
+}
+.pricing_item li {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: #161616;
+}
+.pricing_button {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    background-color: #130e27;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: background-color .3s linear;
+}
+.pricing_button:hover, 
+.pricing_button:active, 
+.pricing_button:focus {
+    background-color: #c62314;
+}
+.footer {
+    background-color: #130e27;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 188px;
+}
+.copy {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: #ffffff;
+}
+.copy a {
+    text-decoration: none;
+    color: #c62314;
+}
+.footer_logo {
+    font-size: 60px;
+    font-family: "QuiteChocolatey";
+    color: #c62314;
+}
