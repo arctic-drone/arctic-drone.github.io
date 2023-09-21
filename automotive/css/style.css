@@ -232,7 +232,7 @@ h1 span {
 .copy a {
     text-decoration: none;
     color: #c62314;
-    transition: background-color .3s linear;
+    transition: color .3s linear;
 }
 .copy a:hover {
     color: #a2190c;
